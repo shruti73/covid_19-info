@@ -1,0 +1,185 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    <style>
+        /* Importing the Roboto font from Google Fonts. */
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+    
+    /* Set font of all elements to 'Roboto' */
+    * {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    
+    /* Remove outline of all elements on focus */
+    *:focus {
+        outline: 0;
+    }
+    
+    body {
+        background: #9c6644;  /* Set background color to #263238*/
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    /* Add styles to 'container' class */
+    .container {
+        padding: 12px 24px 24px 24px;
+        margin: 48px 12px;
+        background: #ddb892;
+        border-radius: 4px;
+    }
+    
+    /* Add styles to 'label' selector */
+    label {
+        font-size: 0.85em;
+        margin-left: 12px;
+    }
+    
+    /* Add styles to 'input' and 'textarea' selectors */
+    input[type=text],input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    /* Add styles to show 'focus' of selector */
+    input[type=text]:focus,input[type=email]:focus, textarea:focus {
+        border: 1px solid green;
+    }
+    
+    /* Add styles to the submit button */
+    input[type=submit] {
+        background: #9c6644;
+        margin: 0 auto;
+        outline: 0;
+        color: white;
+        border: 0;
+        padding: 12px 24px;
+        border-radius: 4px;
+        transition: all ease-in-out 0.1s;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    /* Add styles for 'focus' property */
+    input[type=submit]:focus {
+        background: #A5D6A7;
+        color: whitesmoke;
+    }
+    
+    /* Style 'hover' property */
+    input[type=submit]:hover {
+        background: #2196F3;
+    }
+    
+    /* Align items to center of the 'div' with the class 'center' */
+    .center {
+        text-align: center;
+    }
+    </style>
+    </head>  
+    <body ><div class="container"> 
+        <h3>Vaccine Registration Form </h3> 
+    <br>  
+    <br>  
+    <form>  
+      
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="15"/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+      
+    <label>   
+    Age Group :  
+    </label>   
+    <select>  
+    <option value="Age Group">Age Group</option>  
+    <option value="18-44">18-44</option>  
+    <option value="45-60">45-60</option>  
+    <option value="60+">60+</option>   
+    <option value="Other">Other</option> 
+    </select>  
+
+    <label>   
+        STATES :  
+        </label>   
+        <select>  
+        <option value="RAJASTHAN">RAJASTHAN</option>  
+        <option value="HARYANA">HARYANA</option>  
+        <option value="PUNJAB">PUNJAB</option>  
+        <option value="MP+">MP</option>   
+        <option value="UP">UP</option> 
+        <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>  
+        <option value="MAHARASHTRA">MAHARASHTRA</option>  
+        <option value="BIHAR">BIHAR</option>  
+        <option value="WEST BENGAL">WEST BENGAL</option>   
+        <option value="TAMIL NADU">TAMIL NADU</option>
+        <option value="NAGALAND">NAGALAND</option>  
+        <option value="KARNATAKA">KARNATAKA</option>  
+        <option value="GUJRAT">GUJRAT</option>  
+        <option value="ORISSA">ORISSA</option>   
+        <option value="KERALA">KERALA</option>
+        <option value="JHARKHAND">JHARKHAND</option>  
+        <option value="ASSAM">ASSAM</option>  
+        <option value="CHATTISGARH">CHATTISGARH</option>  
+        <option value="DELHI">DELHI</option>   
+        <option value="GOA">GOA</option>
+        <option value="J&K">J&K</option>   
+        <option value="UTTARAKHAND">UTTARAKHAND</option>
+        <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>  
+        <option value="TRIPURA">TRIPURA</option>  
+        <option value="MANIPUR">MANIPUR</option>  
+        <option value="MEGHALAYA">MEGHALAYA</option>   
+        <option value="MIZORAM">MIZORAM</option>
+        <option value="SIKKIM">SIKKIM</option>  
+        <option value="TELANGANA">TELANGANA</option>  
+        
+        </select>  
+      
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>  
+      
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br> <br>  
+    Address  
+    <br>  
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    Adhaar Number:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br>
+    <div class="center">
+        <input type="submit" value="Submit">
+    </div>
+</div> 
+    </form>  
+    </body>  
+    </html>  

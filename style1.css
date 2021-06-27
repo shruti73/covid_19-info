@@ -1,0 +1,51 @@
+﻿body{
+font-family:"avenir next";
+background-color:#faedcd; }
+
+li{
+color:red;
+}
+.header{
+background-color:"light blue";
+color:"light pink";
+height:90px;
+}
+.header-logo{
+font-size: 36px ;
+padding: 10px ;
+}
+.header-list li{
+padding:33px 20px;
+}
+.contents-items{padding:20px;
+font-size:15px;
+}
+.main{
+	padding:100px 80px;}
+
+.copy-container h1{
+ font-size:60px;}
+
+.copy-container h2{
+	font-size: 40px;}
+
+ span {
+color:red;
+}
+
+.contents{
+ height:500px;
+	margin-top:100px;
+}
+
+.section-title{
+border-bottom:2px solid Lavender
+#E6E6FA;
+font-size:28px;
+padding-bottom:15px;
+margin-bottom:50px;
+}
+
+
+
+
